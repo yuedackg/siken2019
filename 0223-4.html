@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script>
+
+        function doAction1() {
+            var max = 22;
+            for (var i = 1; i < max; i++) {
+                i++;
+            }
+            ans = i;
+            // alert( ans);
+        }
+
+        function doAction2() {
+            var max = 34;
+            while (max-- > 0) {
+                max--;
+            }
+            ans = max;
+            alert(ans);
+        }
+
+        function doAction3() {
+            var seed = [学籍番号];
+            switch (seed % 5 + 9) {
+                case 0:
+                    seed = 5;
+                    break;
+                case 1:
+                    seed = 4;
+                    break;
+                case 2:
+                    seed = 3;
+                    break;
+                case 3:
+                    seed = 2;
+                    break;
+                case 4:
+                    seed = 1;
+                    break;
+                case 5:
+                    seed = 0;
+                    break;
+                default: seed = 999;
+
+            }
+            var ans = seed;
+            alert(ans);
+        }
+        function doAction4() {
+            var ans;
+            var a = 123456;
+            var fa = a % 19;
+            var fb = a % 17;
+            var fc = a % 3;
+            if (fa == 0 || fb == 0 || fc == 0) {
+                ans = "true";
+            } else {
+                ans = "false";
+            }
+            alert(ans);
+        }
+
+        function doAction5() {
+            var ans = 987;
+            if (ans == 987)
+                ans = 123;
+                ans = 456;
+            alert( ans);
+        }
+
+    </script>
+
+</head>
+
+<body>
+
+    <button onclick="doAction1()">check1</button>
+    <button onclick="doAction2()">check2</button>
+    <button onclick="doAction3()">check3</button>
+    <button onclick="doAction4()">check4</button>
+    <button onclick="doAction5()">check5</button>
+
+</body>
+
+</html>

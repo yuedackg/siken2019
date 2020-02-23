@@ -1,0 +1,18 @@
+div{
+    padding: 10px;
+    ;
+}
+.container{
+    display: flex;
+    ;
+}
+.cLabel{
+    width: 100px;
+    ;
+}
+#iOK{
+    border: double 2px black;
+    width: 100px;
+    text-align: center;
+    ;
+}

@@ -1,0 +1,13 @@
+form{
+    display: flex;
+    ;
+}
+*{
+    padding: 5px;
+    ;
+}
+#btnAction{
+    border: double 2px black;
+    width: 100px;
+    ;
+}

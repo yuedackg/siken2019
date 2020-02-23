@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <style>
+        td {
+            border: solid 1px black;
+            width: 30px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        document.write("<table>");
+        document.write("<td></td>");
+
+        for (var i = 1; i <= 9; i++) {
+            document.write("<td>" + i + "</td>");
+        }
+        for (var row = 1; row <= 9; row++) {
+            document.write("<tr>");
+            for (var col = 0; col <= 9; col++) {
+                if (col == 0)
+                    document.write("<td>" + row + "</td>");
+                else
+                    document.write("<td>" + (row * col) + "</td>");
+            }
+            document.write("</tr>");
+        }
+    </script>
+</body>
+
+</html>
