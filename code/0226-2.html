@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+        function doAction(){
+            document.alert( document.forms[0].elements[0]);
+        }
+        </script>
+    </head>
+    <body>
+        
+        <form>
+            <input type="text">
+            <div onclick="doAction()">OK</div>
+        </form>
+    </body>
+</html>
