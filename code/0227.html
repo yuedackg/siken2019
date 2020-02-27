@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function doAction(){
+                document.forms[0].elements[0].value = 
+                document.forms[0].elements[1].value +
+                document.forms[0].elements[2].value;
+            }
+        </script>
+    </head>
+    <body>
+        <form>
+            <input type="text">
+            <input type="text">
+            <input type="text">
+            <div onclick="doAction()">ok</div>
+        </form>
+    </body>
+</html>
